@@ -48,17 +48,3 @@ Trained on [stanford NMT English German translation](https://nlp.stanford.edu/pr
 
 - 1. Experiment 1. Transformer Seq2Seq model using attention 
 - 2. Experiment 2. T5 translation model
-
-# Metrics 
-
-## 1. Experiment 1. Transformer Seq2Seq model using attention 
-
-- BLEU : 
-- BERTScore : 
-- WER (Word Error Rate) : 
-
-## 2. Experiment 2. T5 translation model
-
-- BLEU : 
-- BERTScore : 
-- WER (Word Error Rate) : 
