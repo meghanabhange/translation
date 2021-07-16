@@ -13,6 +13,7 @@ from sklearn.model_selection import train_test_split
 from torchtext.legacy.data import BucketIterator, Field
 from torchtext.legacy.datasets import Multi30k, TranslationDataset
 
+
 def translate_sentence(sentence, src_field, trg_field, model, device, max_len=50):
 
     model.eval()
