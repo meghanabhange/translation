@@ -2,7 +2,8 @@
 
 ## Demo
 
-PLACEHOLDER
+![demo](https://user-images.githubusercontent.com/34004739/125959739-05ce40eb-3aa1-4eb5-b082-d973fb4a915b.gif)
+
 
 ## How To Run The Demo Locally
 
