@@ -35,6 +35,14 @@ python -m predictandevaluate OUTPUT_DIR
 ```
 ---
 
+# Trained Models 
+
+## [Sentencepiece Tokenizer](https://github.com/meghanabhange/translation/releases/tag/0.2)
+Trained on [stanford NMT English German translation](https://nlp.stanford.edu/projects/nmt/) dataset with vocabulary size 32k
+
+## [T5 Huggingface Model](https://github.com/meghanabhange/translation/releases/tag/0.1) 
+
+
 # Notebooks 
 
 - 1. Experiment 1. Transformer Seq2Seq model using attention 
