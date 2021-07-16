@@ -1,4 +1,4 @@
-# Pay Attention to The Translations ✨
+# Paying Attention to The Translations ✨
 
 ## Demo
 
