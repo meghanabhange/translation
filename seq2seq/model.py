@@ -3,11 +3,8 @@ import random
 import time
 from pathlib import Path
 
-import matplotlib.pyplot as plt
-import matplotlib.ticker as ticker
 import numpy as np
 import sentencepiece as spm
-import spacy
 import torch
 import torch.nn as nn
 import torch.optim as optim

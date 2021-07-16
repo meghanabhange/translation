@@ -1,10 +1,24 @@
+import math
+import random
+import time
+from pathlib import Path
+
+import numpy as np
+import sentencepiece as spm
+import torch
+import torch.nn as nn
+import torch.optim as optim
+import torchtext
+from sklearn.model_selection import train_test_split
+from torchtext.legacy.data import BucketIterator, Field
+from torchtext.legacy.datasets import Multi30k, TranslationDataset
+
 def translate_sentence(sentence, src_field, trg_field, model, device, max_len=50):
 
     model.eval()
 
     if isinstance(sentence, str):
-        nlp = spacy.load("de_core_news_sm")
-        tokens = [token.text.lower() for token in nlp(sentence)]
+        tokens = [token.lower() for token in sentence.split()]
     else:
         tokens = [token.lower() for token in sentence]
 
